@@ -9,6 +9,8 @@ const AllItems = ({ data }) => {
                 <Text style={styles.headingText}>Quantity</Text>
             </View>
 
+
+            // Display all items of a list
             <FlatList
                 data={data}
                 keyExtractor={(item) => item.id}
